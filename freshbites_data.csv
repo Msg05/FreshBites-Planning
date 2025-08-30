@@ -1,0 +1,526 @@
+Week_ID,Date,SKU,Region,Forecast_Demand,Actual_Demand,Current_Stock,Production_Capacity_Used,Is_Festival,Supplier_OnTime_Rate,RawMaterial_LeadTime_Days,Plant
+1,2023-01-01,Potato Chips,Mumbai,34.4,39.4,7,19,0,0.74,7,Pune
+1,2023-01-01,Potato Chips,Kolkata,23.0,21.0,17,17,0,0.71,6,Delhi
+1,2023-01-01,Potato Chips,Delhi,31.0,35.0,14,15,0,0.78,10,Delhi
+1,2023-01-01,Nachos,Mumbai,46.4,46.4,14,24,0,0.71,7,Pune
+1,2023-01-01,Nachos,Kolkata,22.7,22.7,12,19,0,0.85,9,Delhi
+1,2023-01-01,Nachos,Delhi,29.0,29.0,21,16,0,0.8,14,Delhi
+1,2023-01-01,Cookies,Mumbai,27.4,33.4,6,22,0,0.71,5,Pune
+1,2023-01-01,Cookies,Kolkata,19.0,17.0,35,20,0,0.84,10,Delhi
+1,2023-01-01,Cookies,Delhi,41.0,39.0,23,18,0,0.85,12,Delhi
+1,2023-01-01,Energy Bar,Mumbai,47.2,52.2,7,19,0,0.8,6,Pune
+1,2023-01-01,Energy Bar,Kolkata,22.8,24.8,21,23,0,0.77,5,Delhi
+1,2023-01-01,Energy Bar,Delhi,29.0,30.0,17,22,0,0.7,7,Delhi
+1,2023-01-01,Instant Noodles,Mumbai,52.4,43.4,10,19,0,0.93,14,Pune
+1,2023-01-01,Instant Noodles,Kolkata,20.6,23.6,11,15,0,0.72,11,Delhi
+1,2023-01-01,Instant Noodles,Delhi,21.0,22.0,20,17,0,0.82,9,Delhi
+2,2023-01-08,Potato Chips,Mumbai,44.6,49.6,6,21,0,0.71,14,Pune
+2,2023-01-08,Potato Chips,Kolkata,17.3,19.3,10,18,0,0.84,8,Delhi
+2,2023-01-08,Potato Chips,Delhi,25.0,27.0,22,18,0,0.94,11,Delhi
+2,2023-01-08,Nachos,Mumbai,53.2,55.2,12,23,0,0.73,8,Pune
+2,2023-01-08,Nachos,Kolkata,25.0,22.0,16,15,0,0.77,13,Delhi
+2,2023-01-08,Nachos,Delhi,42.0,37.0,17,23,0,0.82,5,Delhi
+2,2023-01-08,Cookies,Mumbai,57.2,56.2,5,22,0,0.88,5,Pune
+2,2023-01-08,Cookies,Kolkata,40.0,42.0,36,16,0,0.88,9,Delhi
+2,2023-01-08,Cookies,Delhi,38.0,29.0,11,16,0,0.8,11,Delhi
+2,2023-01-08,Energy Bar,Mumbai,28.6,39.6,5,19,0,0.82,10,Pune
+2,2023-01-08,Energy Bar,Kolkata,17.1,19.1,10,20,0,0.79,8,Delhi
+2,2023-01-08,Energy Bar,Delhi,21.0,14.0,18,20,0,0.87,7,Delhi
+2,2023-01-08,Instant Noodles,Mumbai,52.6,49.6,14,17,0,0.79,11,Pune
+2,2023-01-08,Instant Noodles,Kolkata,30.3,26.3,11,22,0,0.73,13,Delhi
+2,2023-01-08,Instant Noodles,Delhi,38.0,39.0,12,21,0,0.86,14,Delhi
+3,2023-01-15,Potato Chips,Mumbai,52.0,42.0,5,15,0,0.72,9,Pune
+3,2023-01-15,Potato Chips,Kolkata,17.8,11.8,12,17,0,0.91,10,Delhi
+3,2023-01-15,Potato Chips,Delhi,22.0,13.0,17,18,0,0.92,8,Delhi
+3,2023-01-15,Nachos,Mumbai,33.8,35.8,5,16,0,0.82,7,Pune
+3,2023-01-15,Nachos,Kolkata,27.5,20.5,10,19,0,0.74,12,Delhi
+3,2023-01-15,Nachos,Delhi,28.0,20.0,21,17,0,0.86,10,Delhi
+3,2023-01-15,Cookies,Mumbai,46.2,41.2,5,22,0,0.86,6,Pune
+3,2023-01-15,Cookies,Kolkata,15.0,25.0,45,17,0,0.84,5,Delhi
+3,2023-01-15,Cookies,Delhi,35.0,40.0,18,19,0,0.93,5,Delhi
+3,2023-01-15,Energy Bar,Mumbai,45.2,50.2,5,18,0,0.77,9,Pune
+3,2023-01-15,Energy Bar,Kolkata,11.0,15.0,19,20,0,0.87,12,Delhi
+3,2023-01-15,Energy Bar,Delhi,35.0,31.0,16,16,0,0.76,14,Delhi
+3,2023-01-15,Instant Noodles,Mumbai,33.4,22.4,8,20,0,0.79,14,Pune
+3,2023-01-15,Instant Noodles,Kolkata,11.4,20.4,21,24,0,0.7,8,Delhi
+3,2023-01-15,Instant Noodles,Delhi,30.0,38.0,23,17,0,0.78,6,Delhi
+4,2023-01-22,Potato Chips,Mumbai,30.4,24.4,8,24,0,0.84,10,Pune
+4,2023-01-22,Potato Chips,Kolkata,23.2,23.2,20,19,0,0.83,9,Delhi
+4,2023-01-22,Potato Chips,Delhi,30.0,29.0,22,18,0,0.8,7,Delhi
+4,2023-01-22,Nachos,Mumbai,35.8,31.8,11,24,0,0.78,5,Pune
+4,2023-01-22,Nachos,Kolkata,30.6,23.6,19,19,0,0.72,13,Delhi
+4,2023-01-22,Nachos,Delhi,30.0,33.0,10,16,0,0.76,10,Delhi
+4,2023-01-22,Cookies,Mumbai,52.0,46.0,5,21,0,0.86,9,Pune
+4,2023-01-22,Cookies,Kolkata,26.0,19.0,43,19,0,0.72,8,Delhi
+4,2023-01-22,Cookies,Delhi,28.0,21.0,16,18,0,0.74,9,Delhi
+4,2023-01-22,Energy Bar,Mumbai,40.6,34.6,5,24,0,0.86,14,Pune
+4,2023-01-22,Energy Bar,Kolkata,16.0,10.0,17,21,0,0.94,8,Delhi
+4,2023-01-22,Energy Bar,Delhi,27.0,24.0,10,17,0,0.91,7,Delhi
+4,2023-01-22,Instant Noodles,Mumbai,23.0,31.0,11,16,0,0.71,6,Pune
+4,2023-01-22,Instant Noodles,Kolkata,16.4,15.4,22,24,0,0.87,6,Delhi
+4,2023-01-22,Instant Noodles,Delhi,41.0,40.0,14,16,0,0.86,12,Delhi
+5,2023-01-29,Potato Chips,Mumbai,35.2,48.67,5,24,1,0.81,12,Pune
+5,2023-01-29,Potato Chips,Kolkata,10.4,18.69,11,15,1,0.89,12,Delhi
+5,2023-01-29,Potato Chips,Delhi,19.0,34.23,18,17,1,0.73,5,Delhi
+5,2023-01-29,Nachos,Mumbai,48.4,72.73,12,17,1,0.8,13,Pune
+5,2023-01-29,Nachos,Kolkata,29.6,44.09,24,18,1,0.84,9,Delhi
+5,2023-01-29,Nachos,Delhi,21.0,31.05,20,19,1,0.89,11,Delhi
+5,2023-01-29,Cookies,Mumbai,52.0,66.16,9,24,1,0.71,14,Pune
+5,2023-01-29,Cookies,Kolkata,21.0,38.73,40,16,1,0.94,13,Delhi
+5,2023-01-29,Cookies,Delhi,33.0,47.39,15,21,1,0.81,12,Delhi
+5,2023-01-29,Energy Bar,Mumbai,43.6,62.18,5,19,1,0.83,10,Pune
+5,2023-01-29,Energy Bar,Kolkata,28.6,31.24,15,18,1,0.76,11,Delhi
+5,2023-01-29,Energy Bar,Delhi,30.0,49.92,24,17,1,0.89,10,Delhi
+5,2023-01-29,Instant Noodles,Mumbai,40.4,53.26,13,17,1,0.76,6,Pune
+5,2023-01-29,Instant Noodles,Kolkata,29.3,39.54,16,15,1,0.87,13,Delhi
+5,2023-01-29,Instant Noodles,Delhi,39.0,51.53,14,20,1,0.9,9,Delhi
+6,2023-02-05,Potato Chips,Mumbai,49.0,53.0,5,18,0,0.84,8,Pune
+6,2023-02-05,Potato Chips,Kolkata,28.9,18.9,14,20,0,0.85,11,Delhi
+6,2023-02-05,Potato Chips,Delhi,34.0,30.0,15,22,0,0.86,12,Delhi
+6,2023-02-05,Nachos,Mumbai,36.2,36.2,5,19,0,0.94,10,Pune
+6,2023-02-05,Nachos,Kolkata,28.2,21.2,22,17,0,0.91,6,Delhi
+6,2023-02-05,Nachos,Delhi,37.0,32.0,19,22,0,0.92,9,Delhi
+6,2023-02-05,Cookies,Mumbai,28.0,21.0,10,19,0,0.89,13,Pune
+6,2023-02-05,Cookies,Kolkata,31.0,31.0,30,19,0,0.71,10,Delhi
+6,2023-02-05,Cookies,Delhi,35.0,34.0,12,19,0,0.85,9,Delhi
+6,2023-02-05,Energy Bar,Mumbai,37.6,26.6,5,23,0,0.73,7,Pune
+6,2023-02-05,Energy Bar,Kolkata,20.4,15.4,17,16,0,0.79,12,Delhi
+6,2023-02-05,Energy Bar,Delhi,30.0,24.0,15,17,0,0.83,5,Delhi
+6,2023-02-05,Instant Noodles,Mumbai,42.4,46.4,8,15,0,0.73,11,Pune
+6,2023-02-05,Instant Noodles,Kolkata,22.8,17.8,20,17,0,0.93,6,Delhi
+6,2023-02-05,Instant Noodles,Delhi,21.0,31.0,24,17,0,0.93,8,Delhi
+7,2023-02-12,Potato Chips,Mumbai,30.0,39.0,13,21,0,0.83,5,Pune
+7,2023-02-12,Potato Chips,Kolkata,14.8,9.8,19,15,0,0.76,12,Delhi
+7,2023-02-12,Potato Chips,Delhi,20.0,18.0,22,17,0,0.83,11,Delhi
+7,2023-02-12,Nachos,Mumbai,49.0,45.0,7,18,0,0.79,7,Pune
+7,2023-02-12,Nachos,Kolkata,11.4,10.4,12,19,0,0.74,14,Delhi
+7,2023-02-12,Nachos,Delhi,20.0,29.0,19,16,0,0.73,14,Delhi
+7,2023-02-12,Cookies,Mumbai,47.8,45.8,5,22,0,0.92,5,Pune
+7,2023-02-12,Cookies,Kolkata,18.0,18.0,49,22,0,0.82,14,Delhi
+7,2023-02-12,Cookies,Delhi,35.0,35.0,23,22,0,0.73,7,Delhi
+7,2023-02-12,Energy Bar,Mumbai,48.6,51.6,12,16,0,0.81,7,Pune
+7,2023-02-12,Energy Bar,Kolkata,29.6,30.6,19,21,0,0.78,11,Delhi
+7,2023-02-12,Energy Bar,Delhi,34.0,27.0,18,18,0,0.79,13,Delhi
+7,2023-02-12,Instant Noodles,Mumbai,40.8,42.8,5,22,0,0.85,7,Pune
+7,2023-02-12,Instant Noodles,Kolkata,23.3,16.3,19,16,0,0.76,10,Delhi
+7,2023-02-12,Instant Noodles,Delhi,27.0,22.0,14,20,0,0.79,8,Delhi
+8,2023-02-19,Potato Chips,Mumbai,44.0,41.0,5,17,0,0.7,9,Pune
+8,2023-02-19,Potato Chips,Kolkata,18.1,10.1,13,18,0,0.7,10,Delhi
+8,2023-02-19,Potato Chips,Delhi,38.0,42.0,18,16,0,0.84,12,Delhi
+8,2023-02-19,Nachos,Mumbai,52.2,51.2,5,17,0,0.75,8,Pune
+8,2023-02-19,Nachos,Kolkata,20.2,23.2,14,18,0,0.78,7,Delhi
+8,2023-02-19,Nachos,Delhi,20.0,22.0,14,21,0,0.84,6,Delhi
+8,2023-02-19,Cookies,Mumbai,46.8,37.8,14,19,0,0.7,13,Pune
+8,2023-02-19,Cookies,Kolkata,32.0,25.0,46,19,0,0.91,6,Delhi
+8,2023-02-19,Cookies,Delhi,32.0,34.0,11,17,0,0.72,12,Delhi
+8,2023-02-19,Energy Bar,Mumbai,40.8,41.8,13,17,0,0.74,9,Pune
+8,2023-02-19,Energy Bar,Kolkata,30.6,27.6,22,24,0,0.8,12,Delhi
+8,2023-02-19,Energy Bar,Delhi,28.0,22.0,22,20,0,0.83,5,Delhi
+8,2023-02-19,Instant Noodles,Mumbai,45.4,44.4,13,19,0,0.93,7,Pune
+8,2023-02-19,Instant Noodles,Kolkata,15.2,13.2,16,17,0,0.78,8,Delhi
+8,2023-02-19,Instant Noodles,Delhi,29.0,33.0,20,18,0,0.95,13,Delhi
+9,2023-02-26,Potato Chips,Mumbai,27.0,21.0,13,18,0,0.84,14,Pune
+9,2023-02-26,Potato Chips,Kolkata,20.8,14.8,22,18,0,0.81,8,Delhi
+9,2023-02-26,Potato Chips,Delhi,36.0,30.0,21,16,0,0.7,7,Delhi
+9,2023-02-26,Nachos,Mumbai,51.2,56.2,10,19,0,0.91,14,Pune
+9,2023-02-26,Nachos,Kolkata,18.9,17.9,24,24,0,0.94,14,Delhi
+9,2023-02-26,Nachos,Delhi,34.0,33.0,10,22,0,0.92,8,Delhi
+9,2023-02-26,Cookies,Mumbai,47.0,46.0,7,24,0,0.89,14,Pune
+9,2023-02-26,Cookies,Kolkata,28.0,34.0,37,23,0,0.93,11,Delhi
+9,2023-02-26,Cookies,Delhi,19.0,26.0,13,20,0,0.91,5,Delhi
+9,2023-02-26,Energy Bar,Mumbai,55.2,54.2,5,23,0,0.75,13,Pune
+9,2023-02-26,Energy Bar,Kolkata,16.6,20.6,19,20,0,0.79,6,Delhi
+9,2023-02-26,Energy Bar,Delhi,16.0,24.0,21,17,0,0.76,13,Delhi
+9,2023-02-26,Instant Noodles,Mumbai,34.4,36.4,5,15,0,0.9,10,Pune
+9,2023-02-26,Instant Noodles,Kolkata,24.9,18.9,13,23,0,0.74,10,Delhi
+9,2023-02-26,Instant Noodles,Delhi,22.0,32.0,23,21,0,0.81,12,Delhi
+10,2023-03-05,Potato Chips,Mumbai,48.2,80.67,7,17,1,0.72,7,Pune
+10,2023-03-05,Potato Chips,Kolkata,19.8,38.57,10,16,1,0.82,7,Delhi
+10,2023-03-05,Potato Chips,Delhi,18.0,31.97,16,17,1,0.79,14,Delhi
+10,2023-03-05,Nachos,Mumbai,49.2,75.65,6,16,1,0.92,12,Pune
+10,2023-03-05,Nachos,Kolkata,17.0,19.91,16,22,1,0.73,9,Delhi
+10,2023-03-05,Nachos,Delhi,19.0,32.24,11,17,1,0.76,12,Delhi
+10,2023-03-05,Cookies,Mumbai,44.2,67.04,5,21,1,0.92,11,Pune
+10,2023-03-05,Cookies,Kolkata,30.0,39.73,48,17,1,0.85,6,Delhi
+10,2023-03-05,Cookies,Delhi,16.0,27.12,20,24,1,0.91,7,Delhi
+10,2023-03-05,Energy Bar,Mumbai,41.4,61.47,13,23,1,0.81,7,Pune
+10,2023-03-05,Energy Bar,Kolkata,31.3,40.3,10,24,1,0.84,11,Delhi
+10,2023-03-05,Energy Bar,Delhi,32.0,56.48,18,22,1,0.87,13,Delhi
+10,2023-03-05,Instant Noodles,Mumbai,39.4,54.47,13,18,1,0.73,6,Pune
+10,2023-03-05,Instant Noodles,Kolkata,16.8,22.06,19,18,1,0.82,6,Delhi
+10,2023-03-05,Instant Noodles,Delhi,35.0,54.75,21,21,1,0.73,10,Delhi
+11,2023-03-12,Potato Chips,Mumbai,37.0,40.0,8,19,0,0.74,5,Pune
+11,2023-03-12,Potato Chips,Kolkata,19.1,26.1,10,17,0,0.72,7,Delhi
+11,2023-03-12,Potato Chips,Delhi,32.0,26.0,10,21,0,0.85,10,Delhi
+11,2023-03-12,Nachos,Mumbai,30.4,27.4,5,19,0,0.82,14,Pune
+11,2023-03-12,Nachos,Kolkata,14.1,12.1,20,15,0,0.82,6,Delhi
+11,2023-03-12,Nachos,Delhi,32.0,29.0,18,22,0,0.88,13,Delhi
+11,2023-03-12,Cookies,Mumbai,44.0,41.0,5,17,0,0.72,7,Pune
+11,2023-03-12,Cookies,Kolkata,21.0,22.0,41,15,0,0.73,14,Delhi
+11,2023-03-12,Cookies,Delhi,38.0,33.0,10,21,0,0.88,10,Delhi
+11,2023-03-12,Energy Bar,Mumbai,40.8,41.8,14,24,0,0.71,14,Pune
+11,2023-03-12,Energy Bar,Kolkata,27.8,16.8,16,24,0,0.84,14,Delhi
+11,2023-03-12,Energy Bar,Delhi,25.0,21.0,17,16,0,0.81,6,Delhi
+11,2023-03-12,Instant Noodles,Mumbai,55.6,57.6,9,21,0,0.71,12,Pune
+11,2023-03-12,Instant Noodles,Kolkata,11.4,18.4,17,24,0,0.88,11,Delhi
+11,2023-03-12,Instant Noodles,Delhi,36.0,39.0,15,23,0,0.88,5,Delhi
+12,2023-03-19,Potato Chips,Mumbai,53.0,43.0,6,17,0,0.92,11,Pune
+12,2023-03-19,Potato Chips,Kolkata,18.4,17.4,20,21,0,0.7,5,Delhi
+12,2023-03-19,Potato Chips,Delhi,34.0,35.0,24,23,0,0.89,13,Delhi
+12,2023-03-19,Nachos,Mumbai,34.4,42.4,5,17,0,0.82,12,Pune
+12,2023-03-19,Nachos,Kolkata,23.9,22.9,18,15,0,0.93,13,Delhi
+12,2023-03-19,Nachos,Delhi,29.0,30.0,21,24,0,0.9,9,Delhi
+12,2023-03-19,Cookies,Mumbai,42.0,48.0,7,16,0,0.74,8,Pune
+12,2023-03-19,Cookies,Kolkata,25.0,21.0,48,24,0,0.71,13,Delhi
+12,2023-03-19,Cookies,Delhi,23.0,28.0,15,19,0,0.71,11,Delhi
+12,2023-03-19,Energy Bar,Mumbai,53.4,52.4,5,24,0,0.83,6,Pune
+12,2023-03-19,Energy Bar,Kolkata,27.2,20.2,15,22,0,0.89,13,Delhi
+12,2023-03-19,Energy Bar,Delhi,26.0,22.0,20,23,0,0.8,13,Delhi
+12,2023-03-19,Instant Noodles,Mumbai,33.8,32.8,8,22,0,0.93,6,Pune
+12,2023-03-19,Instant Noodles,Kolkata,23.8,20.8,19,16,0,0.72,9,Delhi
+12,2023-03-19,Instant Noodles,Delhi,27.0,37.0,23,17,0,0.91,12,Delhi
+13,2023-03-26,Potato Chips,Mumbai,33.8,42.8,12,15,0,0.92,7,Pune
+13,2023-03-26,Potato Chips,Kolkata,26.5,27.5,20,23,0,0.78,13,Delhi
+13,2023-03-26,Potato Chips,Delhi,27.0,27.0,21,21,0,0.92,14,Delhi
+13,2023-03-26,Nachos,Mumbai,54.2,56.2,5,21,0,0.74,8,Pune
+13,2023-03-26,Nachos,Kolkata,15.7,19.7,23,15,0,0.84,12,Delhi
+13,2023-03-26,Nachos,Delhi,23.0,19.0,12,21,0,0.84,6,Delhi
+13,2023-03-26,Cookies,Mumbai,46.6,43.6,5,18,0,0.72,5,Pune
+13,2023-03-26,Cookies,Kolkata,31.0,29.0,30,20,0,0.86,6,Delhi
+13,2023-03-26,Cookies,Delhi,35.0,33.0,22,21,0,0.72,5,Delhi
+13,2023-03-26,Energy Bar,Mumbai,32.0,34.0,9,16,0,0.77,8,Pune
+13,2023-03-26,Energy Bar,Kolkata,22.2,24.2,24,21,0,0.91,8,Delhi
+13,2023-03-26,Energy Bar,Delhi,19.0,24.0,12,15,0,0.94,12,Delhi
+13,2023-03-26,Instant Noodles,Mumbai,46.6,45.6,5,23,0,0.81,5,Pune
+13,2023-03-26,Instant Noodles,Kolkata,13.5,10.5,18,22,0,0.79,12,Delhi
+13,2023-03-26,Instant Noodles,Delhi,36.0,30.0,17,16,0,0.89,7,Delhi
+14,2023-04-02,Potato Chips,Mumbai,42.4,45.4,5,18,0,0.9,13,Pune
+14,2023-04-02,Potato Chips,Kolkata,24.1,27.1,13,18,0,0.84,13,Delhi
+14,2023-04-02,Potato Chips,Delhi,23.0,26.0,10,22,0,0.82,6,Delhi
+14,2023-04-02,Nachos,Mumbai,46.2,51.2,8,15,0,0.94,13,Pune
+14,2023-04-02,Nachos,Kolkata,18.9,19.9,10,23,0,0.84,10,Delhi
+14,2023-04-02,Nachos,Delhi,34.0,33.0,21,15,0,0.83,5,Delhi
+14,2023-04-02,Cookies,Mumbai,34.2,41.2,5,21,0,0.73,11,Pune
+14,2023-04-02,Cookies,Kolkata,37.0,27.0,39,21,0,0.87,12,Delhi
+14,2023-04-02,Cookies,Delhi,27.0,31.0,15,23,0,0.71,13,Delhi
+14,2023-04-02,Energy Bar,Mumbai,53.8,55.8,13,18,0,0.78,11,Pune
+14,2023-04-02,Energy Bar,Kolkata,19.0,19.0,19,20,0,0.81,7,Delhi
+14,2023-04-02,Energy Bar,Delhi,32.0,22.0,15,21,0,0.86,13,Delhi
+14,2023-04-02,Instant Noodles,Mumbai,41.8,43.8,13,18,0,0.89,11,Pune
+14,2023-04-02,Instant Noodles,Kolkata,22.6,21.6,15,19,0,0.95,13,Delhi
+14,2023-04-02,Instant Noodles,Delhi,26.0,27.0,22,20,0,0.71,5,Delhi
+15,2023-04-09,Potato Chips,Mumbai,31.4,56.12,12,22,1,0.81,8,Pune
+15,2023-04-09,Potato Chips,Kolkata,19.7,25.48,10,17,1,0.84,8,Delhi
+15,2023-04-09,Potato Chips,Delhi,19.0,25.23,13,20,1,0.86,7,Delhi
+15,2023-04-09,Nachos,Mumbai,57.2,83.33,5,16,1,0.86,5,Pune
+15,2023-04-09,Nachos,Kolkata,19.4,28.66,16,24,1,0.76,6,Delhi
+15,2023-04-09,Nachos,Delhi,23.0,34.77,23,20,1,0.92,12,Delhi
+15,2023-04-09,Cookies,Mumbai,39.4,52.37,5,15,1,0.8,13,Pune
+15,2023-04-09,Cookies,Kolkata,18.0,23.78,37,22,1,0.8,11,Delhi
+15,2023-04-09,Cookies,Delhi,38.0,53.85,19,24,1,0.87,13,Delhi
+15,2023-04-09,Energy Bar,Mumbai,27.0,42.9,11,15,1,0.76,10,Pune
+15,2023-04-09,Energy Bar,Kolkata,30.3,36.87,21,19,1,0.9,12,Delhi
+15,2023-04-09,Energy Bar,Delhi,33.0,43.21,21,18,1,0.77,6,Delhi
+15,2023-04-09,Instant Noodles,Mumbai,38.2,63.55,5,21,1,0.76,9,Pune
+15,2023-04-09,Instant Noodles,Kolkata,11.8,30.37,21,24,1,0.8,6,Delhi
+15,2023-04-09,Instant Noodles,Delhi,26.0,47.97,18,21,1,0.81,6,Delhi
+16,2023-04-16,Potato Chips,Mumbai,43.4,49.4,12,18,0,0.88,14,Pune
+16,2023-04-16,Potato Chips,Kolkata,14.9,17.9,17,20,0,0.92,10,Delhi
+16,2023-04-16,Potato Chips,Delhi,30.0,33.0,19,24,0,0.7,6,Delhi
+16,2023-04-16,Nachos,Mumbai,54.4,50.4,5,22,0,0.9,8,Pune
+16,2023-04-16,Nachos,Kolkata,9.0,20.0,14,19,0,0.84,6,Delhi
+16,2023-04-16,Nachos,Delhi,37.0,30.0,18,23,0,0.92,13,Delhi
+16,2023-04-16,Cookies,Mumbai,47.8,38.8,12,20,0,0.78,10,Pune
+16,2023-04-16,Cookies,Kolkata,38.0,43.0,38,21,0,0.81,5,Delhi
+16,2023-04-16,Cookies,Delhi,29.0,19.0,21,24,0,0.8,9,Delhi
+16,2023-04-16,Energy Bar,Mumbai,56.2,46.2,5,20,0,0.72,7,Pune
+16,2023-04-16,Energy Bar,Kolkata,22.9,19.9,12,19,0,0.92,6,Delhi
+16,2023-04-16,Energy Bar,Delhi,24.0,26.0,21,19,0,0.8,9,Delhi
+16,2023-04-16,Instant Noodles,Mumbai,45.6,46.6,5,16,0,0.88,9,Pune
+16,2023-04-16,Instant Noodles,Kolkata,22.0,18.0,21,23,0,0.86,7,Delhi
+16,2023-04-16,Instant Noodles,Delhi,32.0,32.0,12,16,0,0.74,8,Delhi
+17,2023-04-23,Potato Chips,Mumbai,48.0,52.0,12,17,0,0.85,14,Pune
+17,2023-04-23,Potato Chips,Kolkata,12.1,21.1,13,24,0,0.73,11,Delhi
+17,2023-04-23,Potato Chips,Delhi,35.0,30.0,24,22,0,0.9,14,Delhi
+17,2023-04-23,Nachos,Mumbai,30.2,31.2,5,15,0,0.79,14,Pune
+17,2023-04-23,Nachos,Kolkata,24.8,20.8,15,23,0,0.9,14,Delhi
+17,2023-04-23,Nachos,Delhi,31.0,22.0,19,19,0,0.78,12,Delhi
+17,2023-04-23,Cookies,Mumbai,51.2,55.2,8,16,0,0.89,14,Pune
+17,2023-04-23,Cookies,Kolkata,21.0,13.0,32,16,0,0.82,9,Delhi
+17,2023-04-23,Cookies,Delhi,36.0,31.0,21,21,0,0.84,14,Delhi
+17,2023-04-23,Energy Bar,Mumbai,42.2,33.2,5,21,0,0.87,7,Pune
+17,2023-04-23,Energy Bar,Kolkata,20.3,21.3,10,21,0,0.79,7,Delhi
+17,2023-04-23,Energy Bar,Delhi,27.0,22.0,22,18,0,0.72,5,Delhi
+17,2023-04-23,Instant Noodles,Mumbai,29.2,25.2,10,20,0,0.79,8,Pune
+17,2023-04-23,Instant Noodles,Kolkata,17.4,26.4,14,19,0,0.77,12,Delhi
+17,2023-04-23,Instant Noodles,Delhi,34.0,42.0,19,17,0,0.75,6,Delhi
+18,2023-04-30,Potato Chips,Mumbai,39.4,38.4,5,21,0,0.82,12,Pune
+18,2023-04-30,Potato Chips,Kolkata,25.7,26.7,22,23,0,0.74,14,Delhi
+18,2023-04-30,Potato Chips,Delhi,30.0,35.0,13,17,0,0.93,11,Delhi
+18,2023-04-30,Nachos,Mumbai,55.2,49.2,7,22,0,0.83,13,Pune
+18,2023-04-30,Nachos,Kolkata,27.3,27.3,16,15,0,0.85,10,Delhi
+18,2023-04-30,Nachos,Delhi,35.0,35.0,10,21,0,0.77,6,Delhi
+18,2023-04-30,Cookies,Mumbai,38.2,40.2,8,15,0,0.78,8,Pune
+18,2023-04-30,Cookies,Kolkata,19.0,18.0,40,20,0,0.84,8,Delhi
+18,2023-04-30,Cookies,Delhi,24.0,23.0,22,17,0,0.87,14,Delhi
+18,2023-04-30,Energy Bar,Mumbai,46.2,45.2,5,23,0,0.78,7,Pune
+18,2023-04-30,Energy Bar,Kolkata,10.7,20.7,13,16,0,0.86,13,Delhi
+18,2023-04-30,Energy Bar,Delhi,24.0,14.0,13,15,0,0.85,10,Delhi
+18,2023-04-30,Instant Noodles,Mumbai,44.2,47.2,5,23,0,0.87,6,Pune
+18,2023-04-30,Instant Noodles,Kolkata,17.9,19.9,24,18,0,0.72,8,Delhi
+18,2023-04-30,Instant Noodles,Delhi,37.0,40.0,23,16,0,0.86,7,Delhi
+19,2023-05-07,Potato Chips,Mumbai,52.2,55.2,8,16,0,0.82,6,Pune
+19,2023-05-07,Potato Chips,Kolkata,26.8,24.8,12,19,0,0.73,7,Delhi
+19,2023-05-07,Potato Chips,Delhi,21.0,25.0,17,15,0,0.76,8,Delhi
+19,2023-05-07,Nachos,Mumbai,52.6,53.6,5,19,0,0.92,7,Pune
+19,2023-05-07,Nachos,Kolkata,18.2,15.2,22,20,0,0.94,11,Delhi
+19,2023-05-07,Nachos,Delhi,20.0,18.0,19,21,0,0.73,11,Delhi
+19,2023-05-07,Cookies,Mumbai,28.6,35.6,5,19,0,0.75,9,Pune
+19,2023-05-07,Cookies,Kolkata,30.0,25.0,40,19,0,0.91,11,Delhi
+19,2023-05-07,Cookies,Delhi,19.0,27.0,11,22,0,0.9,8,Delhi
+19,2023-05-07,Energy Bar,Mumbai,39.0,40.0,5,23,0,0.73,12,Pune
+19,2023-05-07,Energy Bar,Kolkata,22.6,23.6,22,15,0,0.91,14,Delhi
+19,2023-05-07,Energy Bar,Delhi,26.0,26.0,11,22,0,0.92,12,Delhi
+19,2023-05-07,Instant Noodles,Mumbai,45.4,50.4,12,17,0,0.73,5,Pune
+19,2023-05-07,Instant Noodles,Kolkata,18.8,17.8,16,15,0,0.72,12,Delhi
+19,2023-05-07,Instant Noodles,Delhi,24.0,18.0,14,22,0,0.79,8,Delhi
+20,2023-05-14,Potato Chips,Mumbai,40.0,61.05,5,17,1,0.74,9,Pune
+20,2023-05-14,Potato Chips,Kolkata,16.8,26.8,15,15,1,0.77,12,Delhi
+20,2023-05-14,Potato Chips,Delhi,24.0,36.07,10,18,1,0.85,13,Delhi
+20,2023-05-14,Nachos,Mumbai,42.2,62.96,14,16,1,0.78,8,Pune
+20,2023-05-14,Nachos,Kolkata,23.7,35.63,14,16,1,0.73,5,Delhi
+20,2023-05-14,Nachos,Delhi,23.0,39.41,17,24,1,0.85,10,Delhi
+20,2023-05-14,Cookies,Mumbai,52.6,72.1,13,15,1,0.86,7,Pune
+20,2023-05-14,Cookies,Kolkata,21.0,31.07,42,19,1,0.94,12,Delhi
+20,2023-05-14,Cookies,Delhi,34.0,49.8,15,20,1,0.95,10,Delhi
+20,2023-05-14,Energy Bar,Mumbai,40.8,60.2,14,18,1,0.9,7,Pune
+20,2023-05-14,Energy Bar,Kolkata,21.7,36.56,10,22,1,0.85,10,Delhi
+20,2023-05-14,Energy Bar,Delhi,39.0,54.82,21,23,1,0.89,12,Delhi
+20,2023-05-14,Instant Noodles,Mumbai,44.6,49.88,11,19,1,0.92,8,Pune
+20,2023-05-14,Instant Noodles,Kolkata,15.9,29.22,11,23,1,0.84,11,Delhi
+20,2023-05-14,Instant Noodles,Delhi,24.0,31.19,13,18,1,0.7,14,Delhi
+21,2023-05-21,Potato Chips,Mumbai,38.4,44.4,5,19,0,0.79,7,Pune
+21,2023-05-21,Potato Chips,Kolkata,19.5,19.5,13,18,0,0.88,12,Delhi
+21,2023-05-21,Potato Chips,Delhi,26.0,19.0,15,22,0,0.74,14,Delhi
+21,2023-05-21,Nachos,Mumbai,33.0,40.0,5,15,0,0.85,8,Pune
+21,2023-05-21,Nachos,Kolkata,20.1,25.1,16,18,0,0.84,12,Delhi
+21,2023-05-21,Nachos,Delhi,17.0,25.0,21,17,0,0.82,7,Delhi
+21,2023-05-21,Cookies,Mumbai,48.8,40.8,5,18,0,0.73,5,Pune
+21,2023-05-21,Cookies,Kolkata,16.0,13.0,44,23,0,0.93,5,Delhi
+21,2023-05-21,Cookies,Delhi,36.0,39.0,24,20,0,0.95,11,Delhi
+21,2023-05-21,Energy Bar,Mumbai,43.2,40.2,5,24,0,0.78,5,Pune
+21,2023-05-21,Energy Bar,Kolkata,22.4,27.4,12,19,0,0.71,7,Delhi
+21,2023-05-21,Energy Bar,Delhi,37.0,38.0,14,18,0,0.9,14,Delhi
+21,2023-05-21,Instant Noodles,Mumbai,31.6,29.6,13,21,0,0.93,7,Pune
+21,2023-05-21,Instant Noodles,Kolkata,16.0,12.0,18,20,0,0.76,13,Delhi
+21,2023-05-21,Instant Noodles,Delhi,41.0,36.0,23,22,0,0.71,10,Delhi
+22,2023-05-28,Potato Chips,Mumbai,33.4,42.4,7,24,0,0.77,10,Pune
+22,2023-05-28,Potato Chips,Kolkata,23.3,24.3,18,18,0,0.71,8,Delhi
+22,2023-05-28,Potato Chips,Delhi,41.0,34.0,13,16,0,0.8,11,Delhi
+22,2023-05-28,Nachos,Mumbai,31.0,38.0,5,22,0,0.84,11,Pune
+22,2023-05-28,Nachos,Kolkata,24.3,26.3,18,19,0,0.95,6,Delhi
+22,2023-05-28,Nachos,Delhi,21.0,21.0,17,15,0,0.82,13,Delhi
+22,2023-05-28,Cookies,Mumbai,46.4,36.4,5,19,0,0.76,14,Pune
+22,2023-05-28,Cookies,Kolkata,26.0,19.0,31,24,0,0.84,11,Delhi
+22,2023-05-28,Cookies,Delhi,31.0,42.0,15,16,0,0.82,9,Delhi
+22,2023-05-28,Energy Bar,Mumbai,29.6,34.6,5,24,0,0.82,7,Pune
+22,2023-05-28,Energy Bar,Kolkata,18.2,18.2,15,24,0,0.94,7,Delhi
+22,2023-05-28,Energy Bar,Delhi,37.0,38.0,24,18,0,0.89,10,Delhi
+22,2023-05-28,Instant Noodles,Mumbai,49.6,45.6,5,23,0,0.84,14,Pune
+22,2023-05-28,Instant Noodles,Kolkata,21.2,31.2,12,22,0,0.77,14,Delhi
+22,2023-05-28,Instant Noodles,Delhi,36.0,35.0,16,23,0,0.8,7,Delhi
+23,2023-06-04,Potato Chips,Mumbai,30.6,37.6,9,22,0,0.77,13,Pune
+23,2023-06-04,Potato Chips,Kolkata,15.1,15.1,18,22,0,0.83,8,Delhi
+23,2023-06-04,Potato Chips,Delhi,21.0,20.0,22,17,0,0.92,12,Delhi
+23,2023-06-04,Nachos,Mumbai,30.0,34.0,7,19,0,0.88,9,Pune
+23,2023-06-04,Nachos,Kolkata,16.1,11.1,18,21,0,0.94,11,Delhi
+23,2023-06-04,Nachos,Delhi,28.0,30.0,19,21,0,0.73,9,Delhi
+23,2023-06-04,Cookies,Mumbai,25.8,26.8,5,24,0,0.72,9,Pune
+23,2023-06-04,Cookies,Kolkata,25.0,16.0,35,17,0,0.89,13,Delhi
+23,2023-06-04,Cookies,Delhi,26.0,34.0,18,19,0,0.76,10,Delhi
+23,2023-06-04,Energy Bar,Mumbai,34.8,34.8,7,24,0,0.73,9,Pune
+23,2023-06-04,Energy Bar,Kolkata,13.4,10.4,24,16,0,0.89,13,Delhi
+23,2023-06-04,Energy Bar,Delhi,35.0,39.0,20,17,0,0.71,6,Delhi
+23,2023-06-04,Instant Noodles,Mumbai,26.4,33.4,14,21,0,0.74,8,Pune
+23,2023-06-04,Instant Noodles,Kolkata,16.0,9.0,13,24,0,0.83,10,Delhi
+23,2023-06-04,Instant Noodles,Delhi,33.0,31.0,14,18,0,0.93,5,Delhi
+24,2023-06-11,Potato Chips,Mumbai,39.4,41.4,14,16,0,0.86,10,Pune
+24,2023-06-11,Potato Chips,Kolkata,16.7,20.7,13,19,0,0.84,7,Delhi
+24,2023-06-11,Potato Chips,Delhi,36.0,38.0,17,24,0,0.94,10,Delhi
+24,2023-06-11,Nachos,Mumbai,52.0,44.0,5,24,0,0.87,8,Pune
+24,2023-06-11,Nachos,Kolkata,23.4,23.4,20,21,0,0.83,7,Delhi
+24,2023-06-11,Nachos,Delhi,32.0,32.0,14,18,0,0.72,13,Delhi
+24,2023-06-11,Cookies,Mumbai,30.0,34.0,10,19,0,0.77,13,Pune
+24,2023-06-11,Cookies,Kolkata,21.0,17.0,38,20,0,0.92,11,Delhi
+24,2023-06-11,Cookies,Delhi,30.0,39.0,12,16,0,0.84,9,Delhi
+24,2023-06-11,Energy Bar,Mumbai,31.6,37.6,5,19,0,0.72,13,Pune
+24,2023-06-11,Energy Bar,Kolkata,13.1,16.1,10,22,0,0.83,12,Delhi
+24,2023-06-11,Energy Bar,Delhi,31.0,32.0,12,24,0,0.74,10,Delhi
+24,2023-06-11,Instant Noodles,Mumbai,36.8,33.8,8,17,0,0.76,11,Pune
+24,2023-06-11,Instant Noodles,Kolkata,16.1,11.1,15,16,0,0.77,11,Delhi
+24,2023-06-11,Instant Noodles,Delhi,23.0,26.0,15,20,0,0.76,5,Delhi
+25,2023-06-18,Potato Chips,Mumbai,43.4,60.96,5,24,1,0.94,5,Pune
+25,2023-06-18,Potato Chips,Kolkata,17.4,27.28,13,22,1,0.85,10,Delhi
+25,2023-06-18,Potato Chips,Delhi,31.0,54.19,13,15,1,0.78,9,Delhi
+25,2023-06-18,Nachos,Mumbai,54.4,78.04,8,23,1,0.9,5,Pune
+25,2023-06-18,Nachos,Kolkata,14.6,22.66,20,21,1,0.84,11,Delhi
+25,2023-06-18,Nachos,Delhi,29.0,52.24,22,15,1,0.8,7,Delhi
+25,2023-06-18,Cookies,Mumbai,45.4,61.7,12,15,1,0.91,11,Pune
+25,2023-06-18,Cookies,Kolkata,26.0,41.67,42,21,1,0.71,8,Delhi
+25,2023-06-18,Cookies,Delhi,33.0,58.22,10,18,1,0.79,7,Delhi
+25,2023-06-18,Energy Bar,Mumbai,49.6,63.22,11,24,1,0.78,13,Pune
+25,2023-06-18,Energy Bar,Kolkata,14.2,27.7,19,16,1,0.92,14,Delhi
+25,2023-06-18,Energy Bar,Delhi,29.0,47.66,18,21,1,0.92,8,Delhi
+25,2023-06-18,Instant Noodles,Mumbai,34.0,50.16,5,22,1,0.91,13,Pune
+25,2023-06-18,Instant Noodles,Kolkata,18.7,30.35,22,24,1,0.93,5,Delhi
+25,2023-06-18,Instant Noodles,Delhi,24.0,30.73,13,17,1,0.72,13,Delhi
+26,2023-06-25,Potato Chips,Mumbai,39.0,39.0,5,17,0,0.81,13,Pune
+26,2023-06-25,Potato Chips,Kolkata,22.9,16.9,13,15,0,0.83,6,Delhi
+26,2023-06-25,Potato Chips,Delhi,25.0,24.0,10,15,0,0.94,7,Delhi
+26,2023-06-25,Nachos,Mumbai,36.6,43.6,14,15,0,0.73,9,Pune
+26,2023-06-25,Nachos,Kolkata,14.9,18.9,21,20,0,0.81,8,Delhi
+26,2023-06-25,Nachos,Delhi,32.0,36.0,17,17,0,0.94,8,Delhi
+26,2023-06-25,Cookies,Mumbai,46.2,49.2,9,17,0,0.71,9,Pune
+26,2023-06-25,Cookies,Kolkata,28.0,26.0,39,19,0,0.82,10,Delhi
+26,2023-06-25,Cookies,Delhi,19.0,16.0,22,18,0,0.71,10,Delhi
+26,2023-06-25,Energy Bar,Mumbai,31.2,25.2,12,16,0,0.74,9,Pune
+26,2023-06-25,Energy Bar,Kolkata,23.6,31.6,12,24,0,0.71,9,Delhi
+26,2023-06-25,Energy Bar,Delhi,32.0,24.0,21,22,0,0.95,6,Delhi
+26,2023-06-25,Instant Noodles,Mumbai,40.0,35.0,5,16,0,0.86,13,Pune
+26,2023-06-25,Instant Noodles,Kolkata,25.6,26.6,21,19,0,0.82,8,Delhi
+26,2023-06-25,Instant Noodles,Delhi,37.0,36.0,22,20,0,0.73,11,Delhi
+27,2023-07-02,Potato Chips,Mumbai,28.6,34.6,13,24,0,0.94,5,Pune
+27,2023-07-02,Potato Chips,Kolkata,23.6,30.6,21,18,0,0.92,11,Delhi
+27,2023-07-02,Potato Chips,Delhi,23.0,29.0,17,21,0,0.8,13,Delhi
+27,2023-07-02,Nachos,Mumbai,49.2,50.2,13,16,0,0.81,8,Pune
+27,2023-07-02,Nachos,Kolkata,15.2,19.2,17,18,0,0.7,5,Delhi
+27,2023-07-02,Nachos,Delhi,31.0,31.0,24,20,0,0.76,9,Delhi
+27,2023-07-02,Cookies,Mumbai,45.8,42.8,12,20,0,0.88,10,Pune
+27,2023-07-02,Cookies,Kolkata,33.0,26.0,45,16,0,0.78,7,Delhi
+27,2023-07-02,Cookies,Delhi,31.0,34.0,19,15,0,0.72,11,Delhi
+27,2023-07-02,Energy Bar,Mumbai,25.8,27.8,5,19,0,0.7,12,Pune
+27,2023-07-02,Energy Bar,Kolkata,19.8,12.8,12,16,0,0.73,11,Delhi
+27,2023-07-02,Energy Bar,Delhi,24.0,24.0,23,20,0,0.78,12,Delhi
+27,2023-07-02,Instant Noodles,Mumbai,26.8,25.8,10,20,0,0.77,12,Pune
+27,2023-07-02,Instant Noodles,Kolkata,26.2,29.2,15,16,0,0.72,12,Delhi
+27,2023-07-02,Instant Noodles,Delhi,30.0,34.0,16,22,0,0.8,10,Delhi
+28,2023-07-09,Potato Chips,Mumbai,35.4,29.4,8,19,0,0.71,7,Pune
+28,2023-07-09,Potato Chips,Kolkata,29.6,19.6,16,21,0,0.92,14,Delhi
+28,2023-07-09,Potato Chips,Delhi,27.0,25.0,13,16,0,0.76,8,Delhi
+28,2023-07-09,Nachos,Mumbai,47.6,43.6,12,21,0,0.88,11,Pune
+28,2023-07-09,Nachos,Kolkata,19.1,17.1,24,23,0,0.89,13,Delhi
+28,2023-07-09,Nachos,Delhi,40.0,30.0,15,20,0,0.92,12,Delhi
+28,2023-07-09,Cookies,Mumbai,53.8,48.8,11,23,0,0.72,13,Pune
+28,2023-07-09,Cookies,Kolkata,17.0,14.0,41,18,0,0.9,7,Delhi
+28,2023-07-09,Cookies,Delhi,29.0,32.0,21,17,0,0.72,14,Delhi
+28,2023-07-09,Energy Bar,Mumbai,31.0,30.0,14,21,0,0.76,9,Pune
+28,2023-07-09,Energy Bar,Kolkata,16.0,7.0,13,23,0,0.77,9,Delhi
+28,2023-07-09,Energy Bar,Delhi,36.0,36.0,19,15,0,0.79,11,Delhi
+28,2023-07-09,Instant Noodles,Mumbai,36.2,33.2,13,17,0,0.79,11,Pune
+28,2023-07-09,Instant Noodles,Kolkata,15.6,15.6,24,16,0,0.75,13,Delhi
+28,2023-07-09,Instant Noodles,Delhi,25.0,18.0,13,21,0,0.85,6,Delhi
+29,2023-07-16,Potato Chips,Mumbai,41.2,35.2,5,17,0,0.78,9,Pune
+29,2023-07-16,Potato Chips,Kolkata,18.9,14.9,14,17,0,0.87,5,Delhi
+29,2023-07-16,Potato Chips,Delhi,28.0,26.0,19,19,0,0.93,6,Delhi
+29,2023-07-16,Nachos,Mumbai,48.4,45.4,8,17,0,0.8,5,Pune
+29,2023-07-16,Nachos,Kolkata,21.7,26.7,20,23,0,0.94,14,Delhi
+29,2023-07-16,Nachos,Delhi,20.0,29.0,24,15,0,0.83,14,Delhi
+29,2023-07-16,Cookies,Mumbai,43.4,46.4,14,23,0,0.73,10,Pune
+29,2023-07-16,Cookies,Kolkata,25.0,25.0,36,18,0,0.86,9,Delhi
+29,2023-07-16,Cookies,Delhi,24.0,18.0,18,22,0,0.9,13,Delhi
+29,2023-07-16,Energy Bar,Mumbai,37.8,37.8,5,23,0,0.93,6,Pune
+29,2023-07-16,Energy Bar,Kolkata,23.4,18.4,19,22,0,0.94,9,Delhi
+29,2023-07-16,Energy Bar,Delhi,35.0,43.0,15,23,0,0.75,14,Delhi
+29,2023-07-16,Instant Noodles,Mumbai,44.4,45.4,8,24,0,0.78,7,Pune
+29,2023-07-16,Instant Noodles,Kolkata,20.0,17.0,24,15,0,0.79,8,Delhi
+29,2023-07-16,Instant Noodles,Delhi,27.0,26.0,24,23,0,0.87,14,Delhi
+30,2023-07-23,Potato Chips,Mumbai,46.4,66.6,8,22,1,0.73,6,Pune
+30,2023-07-23,Potato Chips,Kolkata,13.5,29.92,19,19,1,0.94,10,Delhi
+30,2023-07-23,Potato Chips,Delhi,25.0,42.9,19,17,1,0.74,12,Delhi
+30,2023-07-23,Nachos,Mumbai,38.4,64.35,12,16,1,0.91,10,Pune
+30,2023-07-23,Nachos,Kolkata,17.6,29.3,20,24,1,0.83,9,Delhi
+30,2023-07-23,Nachos,Delhi,34.0,50.45,15,16,1,0.95,8,Delhi
+30,2023-07-23,Cookies,Mumbai,40.4,68.94,5,15,1,0.94,9,Pune
+30,2023-07-23,Cookies,Kolkata,31.0,52.38,42,24,1,0.82,8,Delhi
+30,2023-07-23,Cookies,Delhi,29.0,42.16,20,18,1,0.84,10,Delhi
+30,2023-07-23,Energy Bar,Mumbai,46.4,60.39,5,24,1,0.9,9,Pune
+30,2023-07-23,Energy Bar,Kolkata,22.3,30.14,20,20,1,0.81,13,Delhi
+30,2023-07-23,Energy Bar,Delhi,26.0,30.78,17,21,1,0.93,7,Delhi
+30,2023-07-23,Instant Noodles,Mumbai,31.0,34.33,5,18,1,0.72,7,Pune
+30,2023-07-23,Instant Noodles,Kolkata,10.4,24.24,23,15,1,0.9,8,Delhi
+30,2023-07-23,Instant Noodles,Delhi,38.0,52.0,10,16,1,0.93,14,Delhi
+31,2023-07-30,Potato Chips,Mumbai,42.8,46.8,10,23,0,0.71,14,Pune
+31,2023-07-30,Potato Chips,Kolkata,9.0,14.0,22,23,0,0.94,9,Delhi
+31,2023-07-30,Potato Chips,Delhi,32.0,25.0,21,24,0,0.91,11,Delhi
+31,2023-07-30,Nachos,Mumbai,48.6,47.6,5,19,0,0.89,11,Pune
+31,2023-07-30,Nachos,Kolkata,18.3,16.3,22,22,0,0.75,7,Delhi
+31,2023-07-30,Nachos,Delhi,36.0,41.0,18,18,0,0.77,7,Delhi
+31,2023-07-30,Cookies,Mumbai,28.6,33.6,10,22,0,0.71,8,Pune
+31,2023-07-30,Cookies,Kolkata,23.0,17.0,32,16,0,0.92,11,Delhi
+31,2023-07-30,Cookies,Delhi,40.0,45.0,14,23,0,0.7,13,Delhi
+31,2023-07-30,Energy Bar,Mumbai,34.0,35.0,6,21,0,0.78,8,Pune
+31,2023-07-30,Energy Bar,Kolkata,12.4,11.4,21,20,0,0.88,8,Delhi
+31,2023-07-30,Energy Bar,Delhi,37.0,33.0,19,16,0,0.92,9,Delhi
+31,2023-07-30,Instant Noodles,Mumbai,46.0,55.0,10,20,0,0.8,12,Pune
+31,2023-07-30,Instant Noodles,Kolkata,13.9,17.9,24,24,0,0.88,6,Delhi
+31,2023-07-30,Instant Noodles,Delhi,23.0,30.0,15,23,0,0.79,8,Delhi
+32,2023-08-06,Potato Chips,Mumbai,50.6,44.6,5,15,0,0.83,13,Pune
+32,2023-08-06,Potato Chips,Kolkata,24.6,26.6,11,22,0,0.75,11,Delhi
+32,2023-08-06,Potato Chips,Delhi,20.0,27.0,16,23,0,0.77,13,Delhi
+32,2023-08-06,Nachos,Mumbai,39.2,35.2,5,17,0,0.73,5,Pune
+32,2023-08-06,Nachos,Kolkata,22.7,14.7,12,24,0,0.74,8,Delhi
+32,2023-08-06,Nachos,Delhi,32.0,33.0,12,22,0,0.9,5,Delhi
+32,2023-08-06,Cookies,Mumbai,42.2,42.2,7,17,0,0.88,5,Pune
+32,2023-08-06,Cookies,Kolkata,38.0,29.0,34,20,0,0.73,7,Delhi
+32,2023-08-06,Cookies,Delhi,42.0,34.0,21,21,0,0.78,10,Delhi
+32,2023-08-06,Energy Bar,Mumbai,56.2,52.2,13,22,0,0.93,6,Pune
+32,2023-08-06,Energy Bar,Kolkata,25.5,18.5,13,22,0,0.71,5,Delhi
+32,2023-08-06,Energy Bar,Delhi,30.0,34.0,21,15,0,0.93,9,Delhi
+32,2023-08-06,Instant Noodles,Mumbai,45.2,49.2,5,16,0,0.81,7,Pune
+32,2023-08-06,Instant Noodles,Kolkata,12.8,15.8,13,15,0,0.86,10,Delhi
+32,2023-08-06,Instant Noodles,Delhi,27.0,21.0,15,22,0,0.95,12,Delhi
+33,2023-08-13,Potato Chips,Mumbai,55.8,51.8,9,24,0,0.74,10,Pune
+33,2023-08-13,Potato Chips,Kolkata,19.8,18.8,13,23,0,0.75,5,Delhi
+33,2023-08-13,Potato Chips,Delhi,32.0,33.0,11,23,0,0.89,6,Delhi
+33,2023-08-13,Nachos,Mumbai,40.6,43.6,6,21,0,0.74,10,Pune
+33,2023-08-13,Nachos,Kolkata,30.3,31.3,12,18,0,0.72,6,Delhi
+33,2023-08-13,Nachos,Delhi,21.0,24.0,19,23,0,0.88,10,Delhi
+33,2023-08-13,Cookies,Mumbai,37.2,33.2,12,18,0,0.94,14,Pune
+33,2023-08-13,Cookies,Kolkata,28.0,27.0,48,19,0,0.75,10,Delhi
+33,2023-08-13,Cookies,Delhi,19.0,28.0,21,15,0,0.7,8,Delhi
+33,2023-08-13,Energy Bar,Mumbai,31.4,31.4,5,24,0,0.8,14,Pune
+33,2023-08-13,Energy Bar,Kolkata,17.5,11.5,20,20,0,0.78,8,Delhi
+33,2023-08-13,Energy Bar,Delhi,32.0,35.0,20,24,0,0.95,5,Delhi
+33,2023-08-13,Instant Noodles,Mumbai,45.0,36.0,5,22,0,0.86,9,Pune
+33,2023-08-13,Instant Noodles,Kolkata,21.8,16.8,18,19,0,0.72,6,Delhi
+33,2023-08-13,Instant Noodles,Delhi,23.0,29.0,10,16,0,0.79,11,Delhi
+34,2023-08-20,Potato Chips,Mumbai,36.6,35.6,5,22,0,0.75,14,Pune
+34,2023-08-20,Potato Chips,Kolkata,12.5,20.5,23,22,0,0.72,14,Delhi
+34,2023-08-20,Potato Chips,Delhi,39.0,39.0,18,21,0,0.77,5,Delhi
+34,2023-08-20,Nachos,Mumbai,36.6,36.6,5,16,0,0.86,10,Pune
+34,2023-08-20,Nachos,Kolkata,16.9,21.9,14,16,0,0.91,10,Delhi
+34,2023-08-20,Nachos,Delhi,34.0,26.0,15,21,0,0.71,10,Delhi
+34,2023-08-20,Cookies,Mumbai,27.2,38.2,5,16,0,0.8,10,Pune
+34,2023-08-20,Cookies,Kolkata,24.0,22.0,46,24,0,0.94,6,Delhi
+34,2023-08-20,Cookies,Delhi,23.0,22.0,12,17,0,0.9,5,Delhi
+34,2023-08-20,Energy Bar,Mumbai,34.2,33.2,5,24,0,0.91,13,Pune
+34,2023-08-20,Energy Bar,Kolkata,23.4,21.4,14,18,0,0.86,5,Delhi
+34,2023-08-20,Energy Bar,Delhi,33.0,22.0,10,19,0,0.93,10,Delhi
+34,2023-08-20,Instant Noodles,Mumbai,50.2,54.2,5,19,0,0.87,5,Pune
+34,2023-08-20,Instant Noodles,Kolkata,22.7,27.7,18,20,0,0.77,9,Delhi
+34,2023-08-20,Instant Noodles,Delhi,30.0,31.0,22,15,0,0.89,9,Delhi
+35,2023-08-27,Potato Chips,Mumbai,28.4,37.31,13,20,1,0.84,5,Pune
+35,2023-08-27,Potato Chips,Kolkata,25.0,33.25,19,17,1,0.76,13,Delhi
+35,2023-08-27,Potato Chips,Delhi,30.0,38.77,24,17,1,0.78,12,Delhi
+35,2023-08-27,Nachos,Mumbai,40.8,60.49,5,17,1,0.87,12,Pune
+35,2023-08-27,Nachos,Kolkata,27.8,27.73,11,17,1,0.84,5,Delhi
+35,2023-08-27,Nachos,Delhi,16.0,35.44,22,21,1,0.74,14,Delhi
+35,2023-08-27,Cookies,Mumbai,51.4,73.14,5,17,1,0.75,5,Pune
+35,2023-08-27,Cookies,Kolkata,25.0,44.42,46,23,1,0.87,7,Delhi
+35,2023-08-27,Cookies,Delhi,33.0,50.35,21,23,1,0.88,13,Delhi
+35,2023-08-27,Energy Bar,Mumbai,31.0,42.65,5,17,1,0.77,11,Pune
+35,2023-08-27,Energy Bar,Kolkata,20.1,35.24,22,17,1,0.7,13,Delhi
+35,2023-08-27,Energy Bar,Delhi,23.0,34.23,17,20,1,0.82,13,Delhi
+35,2023-08-27,Instant Noodles,Mumbai,35.8,52.13,8,15,1,0.72,6,Pune
+35,2023-08-27,Instant Noodles,Kolkata,22.4,37.33,20,24,1,0.78,7,Delhi
+35,2023-08-27,Instant Noodles,Delhi,22.0,32.4,20,21,1,0.79,8,Delhi
